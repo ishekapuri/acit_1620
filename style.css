@@ -1,0 +1,66 @@
+nav {
+    position: sticky;
+    top: 0px;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+  }
+
+a {
+    text-decoration: none;
+}
+
+div {
+    padding-left: 15px;
+}
+
+footer {
+    position:absolute; 
+    bottom:0; 
+    width:100%; 
+    height:60px; 
+    display: flex;
+    justify-content: center; 
+}
+
+button {
+    border-style: none;
+    background: none;
+}
+
+div.note {
+    position:absolute; 
+    bottom:250px; 
+    width:100%; 
+    height:150px; 
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: #f2e9e1
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+}
+
+div.textspace {
+    margin-left: 600px;
+    margin-top: 200px;
+    max-width: 400px;
+    max-height: 300px;
+}
+
+div.plus {
+    height: 100%;
+}
+
+.AllLists {
+    text-decoration: none;
+}
+
+
+
+
