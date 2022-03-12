@@ -7,7 +7,7 @@ nav {
     text-decoration: none;
   }
 
-a {
+a, ol {
     text-decoration: none;
 }
 
@@ -21,12 +21,14 @@ footer {
     width:100%; 
     height:60px; 
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    color: #1f1d2e; 
 }
 
 button {
     border-style: none;
     background: none;
+    color: #1f1d2e;
 }
 
 div.note {
@@ -49,17 +51,54 @@ body {
 div.textspace {
     margin-left: 600px;
     margin-top: 200px;
-    max-width: 400px;
-    max-height: 300px;
+    color: #1f1d2e;
+}
+li {
+    list-style: none;
 }
 
-div.plus {
+.sidebar {
+    position: fixed;
+    width: 20%;
     height: 100%;
+    background-color: #908caa;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    font-size: larger;
+}
+.close {
+    display: flex;
+    margin-top: 5px;
+    justify-content: flex-end;
+    margin-left: 280px;
 }
 
-.AllLists {
-    text-decoration: none;
+.Alllists {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
 }
+
+.save {
+    padding-left: 00px;
+    padding-top: 0px;
+    border-style: none;
+}
+
+.delete {
+    padding-left: 00px;
+    padding-top: 0px;
+    border-style: none;
+}
+
+.SaveDelete {
+    margin-left: 170px;
+
+}
+
+
 
 
 
