@@ -95,9 +95,12 @@ li {
 }
 
 .SaveDelete {
-    margin-left: 170px;
+    float: left;
+    margin-left: 20%;
 
 }
+
+
 
 
 
