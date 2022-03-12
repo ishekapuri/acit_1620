@@ -99,7 +99,44 @@ li {
     margin-left: 20%;
 }
 
-@media 
+@media (orientation: landscape){
+    
+    .plus .textbox  {
+        display: flex;
+        padding-left: 150px;
+        padding-top: 50px;
+    }
+
+    textarea {
+        display: flex;
+        padding-left: 400px;
+    }
+
+    .SaveDelete {
+        list-style: none;
+        display: flex;
+        list-style-type: none;
+        justify-content: flex-end;
+        margin-right: 50px;
+    }
+
+    .Alllists {
+        position:fixed;
+        width: 30%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        margin-top: auto;
+        float: right;
+        margin-right: 30%;
+    }
+    }
+
 
 
 
