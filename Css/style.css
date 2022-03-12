@@ -1,0 +1,147 @@
+nav {
+    position: sticky;
+    top: 0px;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: #1f1d2e;
+  }
+
+a, ol {
+    text-decoration: none;
+}
+
+div {
+    padding-left: 15px;
+}
+
+footer {
+    position:absolute; 
+    bottom:0; 
+    width:100%; 
+    height:60px; 
+    display: flex;
+    justify-content: center;
+    color: #1f1d2e; 
+}
+
+button {
+    border-style: none;
+    background: none;
+    color: #1f1d2e;
+}
+
+div.note {
+    position:absolute; 
+    bottom:250px; 
+    width:100%; 
+    height:150px; 
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: #f2e9e1
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+}
+
+div.textspace {
+    margin-left: 600px;
+    margin-top: 200px;
+    color: #1f1d2e;
+}
+li {
+    list-style: none;
+}
+
+.sidebar {
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    background-color: #908caa;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    font-size: larger;
+}
+.close {
+    display: flex;
+    margin-top: 5px;
+    justify-content: flex-end;
+    margin-left: 280px;
+}
+
+.Alllists {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.save {
+    padding-left: 00px;
+    padding-top: 0px;
+    border-style: none;
+}
+
+.delete {
+    padding-left: 00px;
+    padding-top: 0px;
+    border-style: none;
+}
+
+.SaveDelete {
+    float: left;
+    margin-left: 20%;
+}
+
+@media (orientation: landscape){
+    
+    .plus .textbox  {
+        display: flex;
+        padding-left: 150px;
+        padding-top: 50px;
+    }
+
+    textarea {
+        display: flex;
+        padding-left: 400px;
+    }
+
+    .SaveDelete {
+        list-style: none;
+        display: flex;
+        list-style-type: none;
+        justify-content: flex-end;
+        margin-right: 50px;
+    }
+
+    .Alllists {
+        position:fixed;
+        width: 30%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        margin-top: auto;
+        float: right;
+        margin-right: 30%;
+    }
+    }
+
+
+
+
+
+
+
+
+
