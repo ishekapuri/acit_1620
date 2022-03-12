@@ -5,6 +5,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     text-decoration: none;
+    color: #1f1d2e;
   }
 
 a, ol {
